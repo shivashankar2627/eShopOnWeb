@@ -14,7 +14,7 @@ jobs:
       with:
         dotnet-version: '5.0.x'
 
-    - name: Build with dotnet
+    - name: Build with dotne
       run: dotnet build ./eShopOnWeb.sln --configuration Release
     
     - name: Test with dotnet
